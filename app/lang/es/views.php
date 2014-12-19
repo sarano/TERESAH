@@ -4,30 +4,30 @@ return array(
     "admin" => array(
         "activities" => array(
             "index" => array(
-                "heading" => "Recent activity",
-                "listing_results" => "Listing recent activity from <span class=\"label round\">:from</span> to <span class=\"label round\">:to</span> of <span class=\"label round\">:total</span> available."
+                "heading" => "Actividad reciente",
+                "listing_results" => "Listar actividad reciente desde <span class=\"label round\">:desde</span> hasta <span class=\"label round\">:hasta </span> de <span class=\"label round\">:total</span> disponibles."
             ),
 
             "activity" => array(
-                "from_ip_address" => "from IP address",
-                "on" => "on"
+                "from_ip_address" => "Desde dirección IP",
+                "on" => "conectado"
             ),
 
             "apikey" => array(
-                "created" => "added an API Key",
+                "created" => "API Key creada",
                 "created_but_since_deleted" => "added an API Key which has since been deleted",
-                "updated" => "updated API Key",
+                "updated" => "API Key actualizada",
                 "updated_but_since_deleted" => "updated API Key which has since been deleted",
-                "deleted" => "deleted API Key",
-                "deleted_but_since_restored" => "deleted API Key (since been restored)",
-                "restored" => "restored API Key",
+                "deleted" => "API Key borrada",
+                "deleted_but_since_restored" => "API Key borrada (since been restored)",
+                "restored" => "API Key restaurada",
                 "restored_but_since_deleted" => "restored API Key which has since been deleted again"
             ),
 
             "data" => array(
-                "created" => "added a data entry :target_name",
+                "created" => "data entry creada:target_name",
                 "created_but_since_deleted" => "added a data entry :target_name which has since been deleted",
-                "updated" => "updated data entry :target_name",
+                "updated" => "data entry actualizada :target_name",
                 "updated_and_name_changed" => "updated data entry :target_previous_name and renamed data entry to :target_name",
                 "updated_but_since_deleted" => "updated data entry :target_name which has since been deleted",
                 "deleted" => "deleted data entry :target_name",
