@@ -5,22 +5,22 @@ return array(
         "activities" => array(
             "index" => array(
                 "heading" => "Actividad reciente",
-                "listing_results" => "Listing recent activity from <span class=\"label round\">:from</span> to <span class=\"label round\">:to</span> of <span class=\"label round\">:total</span> available."
+                "listing_results" => "Listado de actividad reciente de <span class=\"label round\">:de</span> a <span class=\"label round\">:a</span> de <span class=\"label round\">:total</span> disponibles."
             ),
 
             "activity" => array(
-                "from_ip_address" => "from IP address",
-                "on" => "on"
+                "from_ip_address" => "desde la dirección IP",
+                "on" => "conectado"
             ),
 
             "apikey" => array(
-                "created" => "added an API Key",
+                "created" => "API Key creada",
                 "created_but_since_deleted" => "added an API Key which has since been deleted",
-                "updated" => "updated API Key",
+                "updated" => "API Key actualizada",
                 "updated_but_since_deleted" => "updated API Key which has since been deleted",
-                "deleted" => "deleted API Key",
+                "deleted" => "API Key borrada",
                 "deleted_but_since_restored" => "deleted API Key (since been restored)",
-                "restored" => "restored API Key",
+                "restored" => "API Key restaurada",
                 "restored_but_since_deleted" => "restored API Key which has since been deleted again"
             ),
 
@@ -49,78 +49,78 @@ return array(
             ),
 
             "datatype" => array(
-                "created" => "added a data type <a href=\":target_link\" title=\"Show Data Type\">:target_name</a>",
+                "created" => "data type creado <a href=\":target_link\" title=\"Show Data Type\">:target_name</a>",
                 "created_but_since_deleted" => "added a data type :target_name which has since been deleted",
-                "updated" => "updated data type <a href=\":target_link\" title=\"Show Data Type\">:target_name</a>",
+                "updated" => "data type actualizado <a href=\":target_link\" title=\"Show Data Type\">:target_name</a>",
                 "updated_and_name_changed" => "updated data type <a href=\":target_link\" title=\"Show Data Type\">:target_previous_name</a> and renamed data type to <a href=\":target_link\" title=\"Show Data Type\">:target_name</a>",
                 "updated_but_since_deleted" => "updated data type :target_name which has since been deleted",
-                "deleted" => "deleted data type :target_name",
+                "deleted" => "data type borrado :target_name",
                 "deleted_but_since_restored" => "deleted data type <a href=\":target_link\" title=\"Show Data Type\">:target_name</a> (since been restored)",
-                "restored" => "restored data type <a href=\":target_link\" title=\"Show Data Type\">:target_name</a>",
+                "restored" => "data type restaurado <a href=\":target_link\" title=\"Show Data Type\">:target_name</a>",
                 "restored_but_since_deleted" => "restored data type :target_name which has since been deleted again"
             ),
 
             "signup" => array(
-                "created" => "signed up as a user"
+                "created" => "registrado como usuario"
             ),
 
             "tool" => array(
-                "created" => "added a tool <a href=\":target_link\" title=\"Show Tool\">:target_name</a>",
+                "created" => "herramienta creada <a href=\":target_link\" title=\"Show Tool\">:target_name</a>",
                 "created_but_since_deleted" => "added a tool :target_name which has since been deleted",
-                "updated" => "updated tool <a href=\":target_link\" title=\"Show Tool\">:target_name</a>",
+                "updated" => "herramienta actualizada <a href=\":target_link\" title=\"Show Tool\">:target_name</a>",
                 "updated_and_name_changed" => "updated tool <a href=\":target_link\" title=\"Show Tool\">:target_previous_name</a> and renamed tool to <a href=\":target_link\" title=\"Show Tool\">:target_name</a>",
                 "updated_but_since_deleted" => "updated tool :target_name which has since been deleted",
-                "deleted" => "deleted tool :target_name",
+                "deleted" => "herramienta borrada :target_name",
                 "deleted_but_since_restored" => "deleted tool <a href=\":target_link\" title=\"Show Tool\">:target_name</a> (since been restored)",
-                "restored" => "restored tool <a href=\":target_link\" title=\"Show Tool\">:target_name</a>",
+                "restored" => "herramienta restaurada <a href=\":target_link\" title=\"Show Tool\">:target_name</a>",
                 "restored_but_since_deleted" => "restored tool :target_name which has since been deleted again"
             ),
 
             "user" => array(
-                "created" => "created a user account for <a href=\":target_link\" title=\"Show User Account\">:target_name</a>",
-                "created_but_since_deleted" => "created a user account for :target_name which has since been deleted",
-                "updated" => "updated <a href=\":target_link\" title=\"Show User Account\">user account</a>",
-                "updated_and_name_changed" => "updated user account and changed name from :target_previous_name to <a href=\":target_link\" title=\"Show User Account\">:target_name</a>",
-                "updated_for_user" => "updated user account for <a href=\":target_link\" title=\"Show User Account\">:target_name</a>",
-                "updated_for_user_and_name_changed" => "updated user account for <a href=\":target_link\" title=\"Show User Account\">:target_previous_name</a> and changed user's name to <a href=\":target_link\" title=\"Show User Account\">:target_name</a>",
-                "updated_but_since_deleted" => "updated user account for :target_name which has since been deleted",
-                "deleted" => "deleted user account :target_name",
-                "deleted_but_since_restored" => "deleted user account <a href=\":target_link\" title=\"Show User Account\">:target_name</a> (since been restored)",
-                "restored" => "restored user account <a href=\":target_link\" title=\"Show User Account\">:target_name</a>",
-                "restored_but_since_deleted" => "restored user account :target_name which has since been deleted again"
+                "created" => "cuenta de usuario creada para <a href=\":target_link\" title=\"Show User Account\">:target_name</a>",
+                "created_but_since_deleted" => "cuenta de usuario creada para :target_name desde que ha sido borrada",
+                "updated" => "cuenta de usuario actualizada para <a href=\":target_link\" title=\"Show User Account\"></a>",
+                "updated_and_name_changed" => "cuenta de usuario actualizada, cambio de nombre de cuenta :target_previous_name a <a href=\":target_link\" title=\"Show User Account\">:target_name</a>",
+                "updated_for_user" => "cuenta de usuario actualizada para <a href=\":target_link\" title=\"Show User Account\">:target_name</a>",
+                "updated_for_user_and_name_changed" => "cuenta de usuario actualizada para <a href=\":target_link\" title=\"Show User Account\">:target_previous_name</a>, cambio de nombre de cuenta por <a href=\":target_link\" title=\"Show User Account\">:target_name</a>",
+                "updated_but_since_deleted" => "cuenta de usuario actualizada para :target_name desde que ha sido borrada",
+                "deleted" => "cuenta de usuario borrada :target_name",
+                "deleted_but_since_restored" => "cuenta de usuario borrada <a href=\":target_link\" title=\"Show User Account\">:target_name</a> (desde que ha sido restaurada)",
+                "restored" => "cuenta de usuario restaurada <a href=\":target_link\" title=\"Show User Account\">:target_name</a>",
+                "restored_but_since_deleted" => "cuenta de usuario restaurada :target_name which desde que ha sido borrada otra vez"
             )
         ),
 
         "api_keys" => array(
             "index" => array(
                 "heading" => "API Keys",
-                "listing_results" => "Listing API Keys from <span class=\"label round\">:from</span> to <span class=\"label round\">:to</span> of <span class=\"label round\">:total</span> available.",
+                "listing_results" => "Listado de API Keys de <span class=\"label round\">:de</span> a <span class=\"label round\">:a</span> de <span class=\"label round\">:total</span> disponibles.",
                 "actions" => array(
-                    "name" => "Actions",
+                    "name" => "Acciones",
                     "show" => array(
-                        "name" => "Show",
-                        "title" => "Show API Key"
+                        "name" => "Muestra",
+                        "title" => "Muestra API Key"
                     ),
                     "edit" => array(
-                        "name" => "Edit",
-                        "title" => "Edit API Key"
+                        "name" => "Edita",
+                        "title" => "Edita API Key"
                     ),
                     "delete" => array(
-                        "name" => "Delete",
-                        "title" => "Delete API Key",
-                        "confirm" => "Are you sure you want to delete the API Key \":token\" for the user \":user\" and revoke the API access?"
+                        "name" => "Borra",
+                        "title" => "Borra API Key",
+                        "confirm" => "¿Está seguro que quiere borrar la API Key \":token\" for the user \":user\" y revocar el acceso a la API?"
                     )
                 )
             ),
 
             "form" => array(
                 "enabled" => array(
-                    "label" => "API Access",
-                    "name" => "Enabled"
+                    "label" => "Acceso API",
+                    "name" => "Activada"
                 ),
                 "select_user" => array(
-                    "label" => "Select User Account",
-                    "placeholder" => "Select User Account"
+                    "label" => "Seleccione cuenta de usuario",
+                    "placeholder" => "Seleccione cuenta de usuario"
                 ),
                 "token" => array(
                     "label" => "API Access Token",
@@ -130,16 +130,16 @@ return array(
 
             "create" => array(
                 "form" => array(
-                    "submit" => "Add API Key"
+                    "submit" => "Añada API Key"
                 ),
-                "heading" => "Add an API Key"
+                "heading" => "Añada API Key"
             ),
 
             "edit" => array(
                 "form" => array(
-                    "submit" => "Update API Key"
+                    "submit" => "Actualizar API Key"
                 ),
-                "heading" => "Edit API Key"
+                "heading" => "Editar API Key"
             )
         ),
 
@@ -589,42 +589,42 @@ return array(
         "meta" => array(
             "author" => "DASISH",
             "description" => "TERESAH (Tools E-Registry for E-Social science, Arts and Humanities) is a cross-community tools knowledge registry aimed at researchers in the Social Sciences and Humanities (SSH). It aims to provide an authoritative listing of the software tools currently in use in those domains, and to allow their users to make transparent the methods and applications behind them.",
-            "keywords" => "applications, knowledge, libraries, methodologies, methods, registry, researchers, services, software, standards, tools, CESSDA, CLARIN, DARIAH, ESFRI, ESS, SHARE, TERESAH",
+            "keywords" => "aplicaciones informáticas, conocimiento, librerías, metodología, métodos, registro, investigadores, servicios, programas, normas, herramientas, CESSDA, CLARIN, DARIAH, ESFRI, ESS, SHARE, TERESAH",
             "title" => "TERESAH",
         ),
 
         "navigation" => array(
             "teresah" => array(
                 "name" => "TERESAH",
-                "title" => "Home"
+                "title" => "Página inicial"
             ),
             
             "admin" => array(
                 "home" => array(
-                    "name" => "Admin home",
-                    "title" => "Admin home"
+                    "name" => "Administrar página inicial",
+                    "title" => "Administrar página inicial"
                 ),
 
                 "dashboard" => array(
-                    "name" => "Dashboard",
-                    "title" => "Dashboard"
+                    "name" => "Tablero de mandos",
+                    "title" => "Tablero de mandos"
                 ),
 
                 "activities" => array(
-                    "name" => "Activities",
-                    "title" => "Activities"
+                    "name" => "Actividades",
+                    "title" => "Actividades"
                 ),
 
                 "api" => array(
                     "name" => "API",
                     "title" => "API",
                     "create" => array(
-                        "name" => "Add an API Key",
-                        "title" => "Add an API Key"
+                        "name" => "Añadir API Key",
+                        "title" => "Añadir API Key"
                     ),
                     "index" => array(
-                        "name" => "Manage API Keys",
-                        "title" => "Manage API Keys"
+                        "name" => "Administrar API Keys",
+                        "title" => "Administrar API Keys"
                     )
                 ),
 
@@ -632,20 +632,20 @@ return array(
                     "name" => "Data Sources",
                     "title" => "Data Sources",
                     "show" => array(
-                        "name" => "View Data Source",
-                        "title" => "View Data Source"
+                        "name" => "Ver Data Source",
+                        "title" => "Ver Data Source"
                     ),
                     "create" => array(
-                        "name" => "Add a Data Source",
-                        "title" => "Add a Data Source"
+                        "name" => "Añadir Data Source",
+                        "title" => "Añadir Data Source"
                     ),
                     "edit" => array(
-                        "name" => "Edit Data Source",
-                        "title" => "Edit Data Source"
+                        "name" => "Editar Data Source",
+                        "title" => "Editar Data Source"
                     ),
                     "index" => array(
-                        "name" => "Manage Data Sources",
-                        "title" => "Manage Data Sources"
+                        "name" => "Administrar Data Sources",
+                        "title" => "Administrar Data Sources"
                     )
                 ),
 
@@ -653,68 +653,68 @@ return array(
                     "name" => "Data Types",
                     "title" => "Data Types",
                     "show" => array(
-                        "name" => "View Data Type",
-                        "title" => "View Data Type"
+                        "name" => "Ver Data Type",
+                        "title" => "Ver Data Type"
                     ),
                     "create" => array(
-                        "name" => "Add a Data Type",
-                        "title" => "Add a Data Type"
+                        "name" => "Añadir Data Type",
+                        "title" => "Añadir Data Type"
                     ),
                     "edit" => array(
-                        "name" => "Edit Data Type",
-                        "title" => "Edit Data Type"
+                        "name" => "Editar Data Type",
+                        "title" => "Editar Data Type"
                     ),
                     "index" => array(
-                        "name" => "Manage Data Types",
-                        "title" => "Manage Data Types"
+                        "name" => "Administrar Data Types",
+                        "title" => "Administrar Data Types"
                     )
                 ),
 
                 "tools" => array(
-                    "name" => "Tools",
-                    "title" => "Tools",
+                    "name" => "Herramientas",
+                    "title" => "Herramientas",
                     "show" => array(
-                        "name" => "View Tool",
-                        "title" => "View Tool"
+                        "name" => "Ver herramienta",
+                        "title" => "Ver herramienta"
                     ),
                     "create" => array(
-                        "name" => "Add a Tool",
-                        "title" => "Add a Tool"
+                        "name" => "Agregar herramienta",
+                        "title" => "Agregar herramienta"
                     ),
                     "edit" => array(
-                        "name" => "Edit Tool",
-                        "title" => "Edit Tool"
+                        "name" => "Editar herramienta",
+                        "title" => "Editar herramienta"
                     ),
                     "index" => array(
-                        "name" => "Manage Tools",
-                        "title" => "Manage Tools"
+                        "name" => "Administrar herramientas",
+                        "title" => "Administrar herramientas"
                     )
                 ),
 
                 "users" => array(
-                    "name" => "Users",
-                    "title" => "Users",
+                    "name" => "Usuarios",
+                    "title" => "Usuarios",
                     "show" => array(
-                        "name" => "View User Account",
-                        "title" => "View User Account"
+                        "name" => "Ver cuenta de usuario",
+                        "title" => "Ver cuenta de usuario"
                     ),
                     "create" => array(
-                        "name" => "Create a new User Account",
-                        "title" => "Create a new User Account"
+                        "name" => "Crear nueva cuenta de usuario",
+                        "title" => "Crear nueva cuenta de usuario"
                     ),
                     "edit" => array(
-                        "name" => "Edit User Account",
-                        "title" => "Edit User Account"
+                        "name" => "Editar cuentas de usuario",
+                        "title" => "Editar cuentas de usuario"
                     ),
                     "index" => array(
-                        "name" => "Manage User Accounts",
-                        "title" => "Manage User Accounts"
+                        "name" => "Administrar cuentas de usuario",
+                        "title" => "Administrar cuentas de usuario"
                     )
                 ),
 
                 "switch" => array(
-                    "name" => "Browse TERESAH",
-                    "title" => "Switch to browse TERESAH"
+                    "name" => "Explorar TERESAH",
+                    "title" => "Acceder a explorar TERESAH"
                 )
             ),
 
@@ -730,39 +730,39 @@ return array(
             ),
 
             "browse" => array(
-                "name" => "Browse Tools by",
-                "title" => "Browse Tools by",
+                "name" => "Explorar herramientas por",
+                "title" => "Explorar herramientas por",
                 "all" => array(
-                    "name" => "Browse All",
-                    "title" => "Browse All"
+                    "name" => "Explorar todo",
+                    "title" => "Explorar todo"
                 ),
                 "facets" => array(
-                    "name" => "Browse Facets",
-                    "title" => "Browse Facets"
+                    "name" => "Explorar facetas",
+                    "title" => "Explorar facetas"
                 ),
                 "by_alphabet" => array(
-                    "name" => "By Alphabet"
+                    "name" => "En orden alfabético"
                 ),
                 "by_facet" => array(
-                    "name" => "By Facet"
+                    "name" => "Por facetas"
                 ),
                 "popular" => array(
-                    "name" => "Most Popular Tools",
-                    "title" => "Most Popular"
+                    "name" => "Herramientas más populares",
+                    "title" => "Más populares"
                 ),
                 "search" => array(
-                    "name" => "Search",
-                    "title" => "Search"
+                    "name" => "Buscar",
+                    "title" => "Buscar"
                 )
             ),
 
             "search" => array(
-                "name" => "Search",
-                "title" => "Search",
-                "placeholder" => "Search...",
+                "name" => "Búsqueda",
+                "title" => "Búsqueda",
+                "placeholder" => "Búsqueda...",
                 "faceted" => array(
-                    "name" => "Faceted",
-                    "title" => "Faceted"
+                    "name" => "Facetas",
+                    "title" => "Facetas"
                 ),
                 "general" => array(
                     "name" => "General",
@@ -771,11 +771,11 @@ return array(
             ),
 
             "about" => array(
-                "name" => "About",
-                "title" => "About",
+                "name" => "Sobre",
+                "title" => "Sobre",
                 "teresah" => array(
                     "name" => "TERESAH",
-                    "title" => "About TERESAH"
+                    "title" => "Sobre TERESAH"
                 ),
                 "api" => array(
                     "name" => "API",
@@ -786,111 +786,111 @@ return array(
                     "title" => "RDF"
                 ),
                 "privacy_policy" => array(
-                    "name" => "Privacy Policy",
-                    "title" => "Privacy Policy"
+                    "name" => "Política de privacidad",
+                    "title" => "Política de privacidad"
                 ),
                 "license" => array(
-                    "name" => "License and Citing",
-                    "title" => "License and Citing"
+                    "name" => "Licencia y citación",
+                    "title" => "Licencia y citación"
                 )
             ),
 
             "fork" => array(
-                "name" => "TERESAH on GitHub"
+                "name" => "TERESAH en GitHub"
             ),
 
             "contribute" => array(
-                "name" => "Contribute",
-                "title" => "Contribute"
+                "name" => "Contribuir",
+                "title" => "Contribuir"
             ),
 
             "edit_user_profile" => array(
-                "name" => "Edit Profile",
-                "title" => "Edit Profile"
+                "name" => "Editar perfil",
+                "title" => "Editar perfil"
             ),
 
             "edit_user_api_keys" => array(
-                "name" => "Manage API Keys",
-                "title" => "Manage API Keys"
+                "name" => "Administrar API Keys",
+                "title" => "Administrar API Keys"
             ),
 
             "edit_user_tools" => array(
-                "name" => "My Tools",
-                "title" => "My Tools"
+                "name" => "Mis herramientas",
+                "title" => "Mis herramientas"
             ),
 
             "switch" => array(
-                "name" => "Manage TERESAH",
-                "title" => "Switch to administrative section of TERESAH"
+                "name" => "Administrar TERESAH",
+                "title" => "Acceder a panel de control de TERESAH"
             ),
 
             "login" => array(
-                "name" => "Sign in",
-                "title" => "Login",
-                "login_via" => "Login via"
+                "name" => "Registrarse",
+                "title" => "Iniciar sesión",
+                "login_via" => "Iniciar sesión via"
             ),
 
             "logout" => array(
-                "name" => "Logout",
-                "title" => "Logout"
+                "name" => "Cerrar sesión",
+                "title" => "Cerrar sesión"
             )
         )
     ),
 
     "tools" => array(
         "index" => array(
-            "heading" => "Tools",
-            "listing_results" => "Listing Tools from <span class=\"badge\">:from</span> to <span class=\"badge\">:to</span> of <span class=\"badge\">:total</span> available.",
-            "accending" => "accending",
-            "descending" => "descending",
-            "not_found" => "No tools found"
+            "heading" => "Herramientas",
+            "listing_results" => "Listar herramientas de <span class=\"badge\">:de</span> a <span class=\"badge\">:to</span> de <span class=\"badge\">:total</span> disponibles.",
+            "accending" => "ascendente",
+            "descending" => "descendente",
+            "not_found" => "No se encontraron herramientas"
         ),
 
         "by_facet" => array(
             "index" => array(
-                "heading" => "By facet",
-                "listing_results" => "Listing facets from <span class=\"badge\">:from</span> to <span class=\"badge\">:to</span> of <span class=\"badge\">:total</span> available."
+                "heading" => "Por facetas",
+                "listing_results" => "Listar facetas de <span class=\"badge\">:de</span> a <span class=\"badge\">:to</span> de <span class=\"badge\">:total</span> disponibles."
             )
         ),
 
         "data_sources" => array(
             "show" => array(
                 "heading" => array(
-                    "available_data" => "Available Data"
+                    "available_data" => "Datos disponibles"
                 ),
                 "on" => "on",
                 "messages" => array(
-                    "no_data" => "No Data available on Data Source.",
-                    "no_data_sources" => "No Data Sources attached to Tool."
+                    "no_data" => "No hay datos disponibles en Data Source.",
+                    "no_data_sources" => "No hay Data Sources adjuntos a la herramienta."
                 ),
                 "use" => array(
-                    "title" => "Add to 'My Tools'"
+                    "title" => "Añadir a 'Mis herramientas'"
                 ),
                 "unuse" => array(
-                    "title" => "Remove from 'My Tools'"
+                    "title" => "Eliminar de 'Mis herramientas'"
                 ),
-                "similar_tools" => "Similar Tools",
-                "share" => "Share",
-                "export" => "Export",
+                "similar_tools" => "Herramientas similares",
+                "share" => "Compartir",
+                "export" => "Exportar",
                 "available_data_formats" => "Available Data Formats"
             )
         ),
 
         "popular" => array(
-            "heading" => "Most popular tools",
+            "heading" => "Herramientas más populares",
         ),
 
         "search" => array(
             "form" => array(
                 "search" => array(
-                    "label" => "Search",
-                    "placeholder" => "Find tools, services, methodologies and more..."
+                    "label" => "Buscar",
+                    "placeholder" => "Encontrar herramientas, servicios, metodologías y más ..."
                 )
             ),
 
             "index" => array(
-                "heading" => "Search Tools",
-                "list_more" => "List :num more",
+                "heading" => "Herramientas de búsqueda",
+                "list_more" => "Lista :num more",
             )
         )
     ),
@@ -899,58 +899,58 @@ return array(
         "api_key" => array(
             "heading" => "API keys",
             "api-key" => "Key",
-            "created_at" => "Created at",
-            "description" => "Description",
-            "description-empty" => "Click to add description",
+            "created_at" => "Creado el",
+            "description" => "Descripción",
+            "description-empty" => "Haga clic para añadir una descripción",
             "actions" => array(
-                "name" => "Actions",
+                "name" => "Acciones",
                 "remove" => array(
-                    "title" => "Remove API key",
-                    "confirm" => "Are you sure you want to remove the API key?"
+                    "title" => "Eliminar API key",
+                    "confirm" => "¿Está seguro que quiere eliminar la API key?"
                 )
             ),
-            "apply" => "Apply for API key"
+            "apply" => "Solicitar API key"
         ),
 
         "form" => array(
-            "heading" => "Profile details",
+            "heading" => "Detalles del perfil",
             "name" => array(
-                "label" => "Name",
-                "placeholder" => "Name"
+                "label" => "Nombre",
+                "placeholder" => "Nombre"
             ),
             "locale" => array(
-                "label" => "Locale"
+                "label" => "Lugar"
             ),
             "email_address" => array(
-                "label" => "Email address",
-                "placeholder" => "Email address"
+                "label" => "Dirección de correo electrónico",
+                "placeholder" => "Dirección de correo electrónico"
             ),
             "password" => array(
-                "label" => "New password",
-                "placeholder" => "New password"
+                "label" => "Nueva contraseña",
+                "placeholder" => "Nueva contraseña"
             ),
             "password_confirmation" => array(
-                "label" => "New password confirmation",
-                "placeholder" => "Repeat new password"
+                "label" => "Confirmación de nueva contraseña",
+                "placeholder" => "Repetir nueva contraseña"
             )
         ),
 
         "edit" => array(
             "form" => array(
-                "submit" => "Update profile"
+                "submit" => "Actualizar perfil"
             ),
-            "heading" => "Edit Profile"
+            "heading" => "Editar perfil"
         ),
 
         "tools" => array(
-            "heading" => "My tools",
-            "name" => "My tools",
-            "empty" => "You have not added any tools to this list",
+            "heading" => "Mis herramientas",
+            "name" => "Mis herramientas",
+            "empty" => "No se ha añadido ninguna herramienta a la lista",
             "actions" => array(
-                "name" => "Actions",
+                "name" => "Acciones",
                 "remove" => array(
-                    "title" => "Remove from list",
-                    "confirm" => "Are you sure you want to remove the tool from the list?"
+                    "title" => "Eliminar de la lista",
+                    "confirm" => "¿Está seguro que quiere eliminar la herramienta de la lista?"
                 )
             )
         )
